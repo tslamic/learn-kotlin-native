@@ -119,7 +119,7 @@ import platform.UIKit.UIDevice
 actual fun platformName(): String = UIDevice.currentDevice.name
 ```
 
-Again, note the `actual` keyword. More importantly, check the `import` statement. We're importing [`UIDevice`][5], which wouldn't be very interesting if it weren't for the fact that `UIDevice` is part of [`UIKit`][6], Apple's framework for event-driven user interface for iOS and tvOS apps. As explained in the [Kotlin/Native introduction](kotlin-native), libraries such as `UIKit` are available out of the box, with a single `import` statement.
+Again, note the `actual` keyword. More importantly, check the `import` statement. We're importing [`UIDevice`][5], which wouldn't be very interesting if it weren't for the fact that `UIDevice` is part of [`UIKit`][6], Apple's framework for event-driven user interface for iOS and tvOS apps. As explained in the [Kotlin/Native introduction](/kotlin-native), libraries such as `UIKit` are available out of the box, with a single `import` statement.
 
 Checking `Common.kt`, all lint warning should now be gone. Our `common` module is ready to be consumed. Open `app/build.gradle` and add `common` as a project dependency:
 

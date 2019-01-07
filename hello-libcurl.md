@@ -144,7 +144,7 @@ While unnecessary, we've also introduced two types inside the `if` statement. Th
 
 To transform a `C` string represented as `CPointer<ByteVar>?` to a Kotlin string, we can use the `CPointer<ByteVar>.toKString()` extension method. Refer to the [docs][9] for more information.
 
-Finally, note the `curl_easy_cleanup(curl)` function. As discussed in [a brief introduction](kotlin-native), when interacting with a C library, you need to manually clean up the allocated objects.
+Finally, note the `curl_easy_cleanup(curl)` function. As discussed in [a brief introduction](/kotlin-native), when interacting with a C library, you need to manually clean up the allocated objects.
 
 [1]: https://play.kotlinlang.org/koans/overview
 [2]: http://www.vogella.com/tutorials/Gradle/article.html
