@@ -1,0 +1,9 @@
+{
+  "name": "Learn Kotlin/Native",
+  "short_name": "Learn K/N",
+  "theme_color": "#202020",
+  "background_color": "#FFFFFF",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}
