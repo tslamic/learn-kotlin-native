@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello, Kotlin/Native
+title: Hello, World
 comments: true
 ---
 
