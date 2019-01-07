@@ -9,7 +9,7 @@ take too long to compile. Maybe you just don't know what the first step is. 🤷
 If the above rings a bell, you're in the right place. This website was created
 with a very simple goal in mind - get your feet wet with Kotlin/Native. It
 won't teach you everything there is to know about it, nor is it a complete
-reference. It will, in layman's terms, explain what Kotlin/Native is, and how
+reference guide. It will, in layman's terms, explain what Kotlin/Native is, and how
 to write a few relatively simple programs with it.
 
 I sincerely hope you'll have a better understanding of Kotlin/Native once you
