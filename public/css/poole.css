@@ -236,10 +236,22 @@ blockquote p:last-child {
 
 img {
   display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
+  max-width: 80%;
+  margin: auto auto 1em;
 }
+
+/* @media (min-width: 10em) {
+  img {
+    width: 60%;
+    height: auto;
+  }
+}
+
+@media (min-width: 48em) {
+  img {
+    max-width: 90%;
+  }
+} */
 
 /* Tables */
 table {

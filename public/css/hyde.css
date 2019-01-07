@@ -117,8 +117,8 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 @media (min-width: 48em) {
@@ -245,26 +245,22 @@ a.sidebar-nav-item:focus {
   font-size: 0.6em;
 }
 
-.sponsor {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  background-color: #202020;
-  color: white;
-  text-align: center;
-  /* font-size: 16px; */
-  padding: 0.5em;
-}
-
-@media (min-width: 48em) {
-  .sponsor {
-    margin-left: 18em;
-  }
-}
-
 .page img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.sponsor {
+  margin: auto;
+  color: #a9a9a9;
+  font-size: 0.6em;
+  padding: 0.25em;
+  text-align: center;
+}
+
+.sponsor img {
+  width: 7em;
+  height: auto;
 }
