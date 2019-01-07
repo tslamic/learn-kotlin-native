@@ -1,11 +1,13 @@
 title: "Learn Kotlin/Native"
-tagline: "A gentle introduction to Kotlin/Native"
-url: http://hyde.getpoole.com
+tagline: "A gentle introduction to Kotlin/Native."
+url: http://www.learnkotlinnative.com
 baseurl: /
 
 author:
-  name: "Tadej Slamic"
+  name: "Tadej"
   url: http://www.tadej.me
+  twitter: https://twitter.com/learnkotlinnat
+  email: learnkotlinnative@gmail.com
 
 markdown: kramdown
 highlighter: pygments
@@ -15,4 +17,4 @@ paginate: 5
 version: 2.1.0
 github:
   repo: https://github.com/poole/hyde
-copyright: 'All content on this website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons      Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. The Kotlin logo is the property of <a href="https://www.jetbrains.com" target="_blank">JetBrains</a>. <br/> Made with ❤️ by <a href="http://www.tadej.me" target="_blank">Tadej</a>'
+copyright: 'All content on this website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Built with Jekyll using the <a href="http://hyde.getpoole.com/" target="_blank">Hyde</a> theme. The Kotlin logo is the property of <a href="https://www.jetbrains.com" target="_blank">JetBrains</a>. Made with ❤️ by <a href="http://www.tadej.me" target="_blank">Tadej</a>'
