@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hello, libcurl
+comments: true
 ---
 
 In this tutorial, we're going to create a simple program using a C library `libcurl`. Before starting, you'll need to know the very basics of:

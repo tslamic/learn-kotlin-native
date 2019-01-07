@@ -1,6 +1,7 @@
 ---
 layout: page
 title: What is Kotlin/Native?
+comments: true
 ---
 
 Kotlin/Native is a technology capable of converting your Kotlin code into standalone binaries that can run on Android, iOS, macOS, Windows, Linux, embedded systems, and more.

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hello, Kotlin/Native
+comments: true
 ---
 
 In this short tutorial, we're going to look at an all-time classic, a _Hello, World_ program. Before starting, you'll need to know the very basics of:
