@@ -44,7 +44,7 @@ There's one more executable that will come handy: `curl-config`. If you didn't h
 $ curl-config --libs
 ```
 
-The output is the linking information we need in the definition file. If you didn't install the library, it might be as simple as `-lcurl`. If you did install it, it might look like `-L/usr/local/lib -lcurl -lldap -lz`. Copy it, and add it to the definitiona file as a `linkerOpts` value, so your `libcurl.def` looks like this:
+The output is the linking information we need in the definition file. If you didn't install the library, it might be as simple as `-lcurl`. If you did install it, it might look like `-L/usr/local/lib -lcurl -lldap -lz`. Copy it, and add it to the definition file as a `linkerOpts` value, so your `libcurl.def` looks like this:
 
 ```bash
 headers = /absolute/path/to/your/curl/curl.h
@@ -84,7 +84,7 @@ Now run `gradle build`. Once successfully built, inspect the `build` folder cont
 
 ![curl build](/public/assets/curl-build.png)
 
-The `libcurl.kt` contains the library bindings. Time to put them to use! A simple `HTTP GET` request using `libcurl` can be found [here][6], and look like this:
+The `libcurl.kt` contains the library bindings. Time to put them to use! A simple `HTTP GET` request using `libcurl` can be found [here][6], and looks like this:
 
 ```c
 #include <stdio.h>
@@ -119,7 +119,7 @@ import kotlinx.cinterop.*
 fun main(args: Array<String>) {
   val curl = curl_easy_init()
   if (curl != null) {
-    curl_easy_setopt(curl, CURLOPT_URL, "http")
+    curl_easy_setopt(curl, CURLOPT_URL, "https://example.com"")
     curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L)
 
     val res = curl_easy_perform(curl)
