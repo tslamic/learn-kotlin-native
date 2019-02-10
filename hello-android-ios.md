@@ -2,6 +2,7 @@
 layout: page
 title: Hello, Android & iOS
 comments: true
+desc: Create an app using Kotlin/Native and run it on Android and iOS.
 ---
 
 In this tutorial, we're going to create a multiplatform project with Kotlin code running on both Android and iOS. Before starting, you'll need to know the very basics of:

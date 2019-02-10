@@ -2,6 +2,7 @@
 layout: page
 title: Hello, libcurl
 comments: true
+desc: Learn how to interact with a C library using Kotlin/Native, curl and cinterop.
 ---
 
 In this tutorial, we're going to create a simple program using a C library `libcurl`. Before starting, you'll need to know the very basics of:

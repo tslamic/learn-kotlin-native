@@ -2,6 +2,7 @@
 layout: page
 title: Hello, World
 comments: true
+desc: Create an all-time classic, a Hello World program using Kotlin/Native. 
 ---
 
 In this short tutorial, we're going to look at an all-time classic, a _Hello, World_ program. Before starting, you'll need to know the very basics of:
