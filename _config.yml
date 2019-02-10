@@ -10,7 +10,7 @@ author:
 
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-gist, jekyll-sitemap]
 permalink: pretty
 github:
   repo: https://github.com/tslamic/learn-kotlin-native
