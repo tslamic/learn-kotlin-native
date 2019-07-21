@@ -175,7 +175,7 @@ task packForXCode(type: Sync) {
 tasks.build.dependsOn packForXCode
 ```
 
-Sync, then rebuild the `common` project. Inspect the `build` folder once built, and ensure `xcode-framweworks` directory is in it.
+Sync, then rebuild the `common` project. Inspect the `build` folder once built, and ensure `xcode-frameworks` directory is in it.
 
 ![Xcode Frameworks](/public/assets/xcode-frameworks.png)
 
