@@ -1,6 +1,6 @@
 title: "Learn Kotlin/Native"
 tagline: "A gentle introduction to Kotlin/Native."
-url: http://www.learnkotlinnative.com
+url: https://tslamic.github.io/learn-kotlin-native
 desc: The best resource on the web to learn Kotlin/Native.
 
 author:
@@ -11,7 +11,7 @@ author:
 
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate, jekyll-gist, jekyll-sitemap]
+plugins: [ jekyll-paginate, jekyll-gist, jekyll-sitemap ]
 permalink: pretty
 github:
   repo: https://github.com/tslamic/learn-kotlin-native
