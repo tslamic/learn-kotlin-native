@@ -1,6 +1,7 @@
 title: "Learn Kotlin/Native"
 tagline: "A gentle introduction to Kotlin/Native."
 url: https://tslamic.github.io/learn-kotlin-native
+baseurl: https://tslamic.github.io/learn-kotlin-native
 desc: The best resource on the web to learn Kotlin/Native.
 
 author:
